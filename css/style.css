@@ -1,0 +1,309 @@
+/* ========= Обнуление ========= */
+@import "null.css";
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+body {
+   font-family: 'Fira Sans,', Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   background: url(../img/img_bg.jpg) 0 0 / cover no-repeat fixed;
+}
+
+/* Шрифты
+   Fira Sans: 400 700  
+   Balsamiq Sans: 400 italic
+*/
+
+/* ========= Header ========= */
+
+.container {
+   max-width: 1200px;
+   height: 100%;
+   margin: 0 auto;
+}
+
+.header {
+   max-width: 1200px;
+   height: 100%;
+   margin-bottom: 50px;
+}
+
+.header-title {
+   text-align: center;
+}
+
+.header-title h1 {
+   font-family: 'Balsamiq Sans', Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 40px;
+   color: rgb(145, 255, 0);
+   margin-bottom: 50px;
+}
+
+/* ========= Blocks ========= */
+/* ========= Block 1 ========= */
+
+.block-1 {
+   display: inline-block;
+   padding: 20px 20px 0 20px;
+   max-width: 500px;
+   min-height: 600px; 
+   overflow: auto;
+   border-radius: 10px;
+   text-align: center;
+   box-shadow: 0 0 25px 5px black, inset 0 0 50px 30px black;
+   background: url(../img/img1.jpg) center / cover no-repeat;
+}
+
+.block-1-main-title { 
+   font-weight: 700;
+   color: rgb(0, 255, 85);
+   margin-bottom: 20px;
+}
+
+.block-1-main-title-avarage {
+   text-align: left;
+}
+
+.block-1-main-title-avarage h2 {
+   font-size: 30px;
+   color: rgb(187, 255, 0);
+   margin-bottom: 20px;
+}
+
+.block-1-list {
+   text-align: left;
+}
+
+.block-1-list > ul {
+   text-align: left;
+}
+
+.block-1-list > ul > li {
+   font-size: 25px;
+   color: rgb(145, 255, 0);
+   margin-bottom: 40px;
+   text-shadow: 5px 5px 15px black;
+   background: url(../img/img_list.png) 0 0 / 70px 25px no-repeat;
+   padding-left: 70px;
+}
+
+/* ========= Block 2 ========= */
+
+.block-2 {
+   display: inline-block;
+   padding: 20px 20px 0 20px;
+   max-width: 500px;
+   min-height: 600px; 
+   overflow: auto;
+   border-radius: 10px;
+   text-align: center;
+   box-shadow: 0 0 25px 5px black, inset 0 0 50px 30px black;
+   background: url(../img/img2.jpg) center / cover no-repeat;
+   margin-left: 190px;
+}
+
+/* ========= Block 3 ========= */
+
+.block-3 {
+   width: 100%;
+   height: 500px;
+   text-align: center;
+   background: url(../img/img3.jpg) center / cover no-repeat fixed;
+   border-radius: 50px;
+   border: 3px solid rgb(145, 255, 0) ;
+   box-shadow: 0 0 30px 20px black, inset 0 0 50px 20px black;
+   margin-bottom: 50px;
+}
+
+.block-3 h3 {
+   font-family: 'Balsamiq Sans', Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 30px;
+   color: rgb(145, 255, 0);
+}
+
+/* ========= Block 4 ========= */
+
+.block-4 {
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.block-4-main-title {
+   text-align: center;
+}
+
+.block-4-main-title h3 {
+   font-family: 'Balsamiq Sans', Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 30px;
+   color: rgb(145, 255, 0);
+   margin-bottom: 30px;
+}
+
+.bg-img-1,
+.bg-img-2,
+.bg-img-3 {
+   display: inline-block;
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   outline: 5px solid rgb(145, 255, 0);
+}
+
+.bg-img-1 {
+   background: url(../img/img4.jpg) center / cover no-repeat;
+   margin-bottom: -20px ;
+}
+
+.bg-img-2 {
+   background: url(../img/img5.jpg) center / cover no-repeat;
+   margin: -100px 270px 0 0;
+}
+
+.bg-img-3 {
+   background: url(../img/img6.jpg) center / cover no-repeat;
+   margin: -290px 0 0 290px;
+}
+
+.bg-wrapper {
+   text-align: center;
+}
+
+/* ========= Block 5 ========= */
+
+.block-5 {
+   text-align: center;
+   height: 100%;
+}
+
+.block-5 h3 {
+   font-family: 'Balsamiq Sans', Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 30px;
+   color: rgb(145, 255, 0);
+   margin-bottom: 50px;
+}
+
+.block-5-subblock-1,
+.block-5-subblock-2 {
+   display: inline-block;
+   max-width: 500px;
+   min-height: 200px;
+   outline: 3px solid rgb(145, 255, 0);
+   padding: 5px;
+   text-align: justify;
+   border-radius: 10px;
+}
+
+.block-5-subblock-1 {
+   background:  linear-gradient(90deg, rgba(34, 255, 5, 0.288) 0%, rgba(230, 255, 8, 0.377) 100%), url(../img/img7.jpg) left / contain no-repeat;
+   margin-bottom: 50px;
+}
+
+.block-5-subblock-2 {
+   background:  linear-gradient(90deg, rgba(238, 118, 5, 0.288) 0%, rgba(16, 255, 8, 0.575) 100%), url(../img/img8.jpg) right / contain no-repeat;
+   margin-left: 100px;
+}
+
+.block-5-subblock-1 p {
+   color: rgb(0, 0, 0);
+   font-size: 20px;
+}
+
+.block-5-subblock-2 p {
+   color: rgb(0, 0, 0);
+   font-size: 20px;
+}
+
+/* ========= Block 6 ========= */
+
+.block-6 {
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.block-6-subblock-1,
+.block-6-subblock-2 {
+   display: inline-block;
+   max-width: 500px;
+   height: 100%;
+}
+
+.sub-block-1,
+.sub-block-2,
+.sub-block-3,
+.sub-block-4 {
+   width: 300px;
+   height: 200px;
+}
+
+.sub-block-1 {
+   background: linear-gradient(270deg, rgb(34, 255, 5) 0%, rgba(189, 255, 8, 0.459) 100%), url(../img/img9.png) right bottom no-repeat;
+   margin-bottom: 10px;
+   border-top: 3px solid rgb(145, 255, 0);
+   border-left: 3px solid rgb(145, 255, 0);
+   border-radius: 10px 0 0 0;
+}
+
+.sub-block-2 {
+   background: linear-gradient(220deg, rgb(169, 228, 9) 0%, rgba(226, 86, 5, 0.589) 100%), url(../img/img9.png) right top no-repeat;
+   border-left: 3px solid rgb(145, 255, 0);
+   border-bottom: 3px solid rgb(145, 255, 0);
+   border-radius: 0 0 0 10px;
+}
+
+.sub-block-3 {
+   background: linear-gradient(90deg,rgba(226, 86, 5, 0.589) 0%, rgb(169, 228, 9) 100%), url(../img/img9.png) left bottom no-repeat;
+   margin-bottom: 10px;
+   border-top: 3px solid rgb(145, 255, 0);
+   border-right: 3px solid rgb(145, 255, 0);
+   border-radius: 0 10px 0 0;
+}
+
+.sub-block-4 {
+   background: linear-gradient(360deg,rgba(189, 255, 8, 0.459) 0%, rgb(34, 255, 5) 100%), url(../img/img9.png) left top no-repeat;
+   border-right: 3px solid rgb(145, 255, 0);
+   border-bottom: 3px solid rgb(145, 255, 0);
+   border-radius: 0 0 10px 0;
+}
+
+/* ========= Footer ========= */
+
+.footer {
+   max-width: 100%;
+   height: 100%;
+   text-align: center;
+   background-color: black;
+   border: 3px solid rgb(145, 255, 0);
+   border-radius: 10px;
+}
+
+.btn {
+   width: 150px;
+   height: 100%;
+   display: inline-block;
+   padding: 10px 0;
+}
+
+.figma-button {
+   width: 100%;
+   min-height: 50px;
+   background-color: rgb(145, 255, 0);
+   padding-top: 5px;
+   border-radius: 10px;
+   box-shadow: inset 0 0 5px 10px rgb(224, 228, 8);
+}
+
+.figma-button h1 {
+   font-weight: 700;
+   color: rgb(255, 169, 8);
+}
